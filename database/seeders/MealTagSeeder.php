@@ -25,6 +25,8 @@ class MealTagSeeder extends Seeder
                     [
                         'meal_id'=>$mealsID,
                         'tag_id'=>$tagsID,
+                        'created_at'=>now(),
+                        'updated_at'=>now(),
                     ]
                 );
             }
